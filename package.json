@@ -12,17 +12,6 @@
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
     "prepare": "husky install"
   },
-  "lint-staged": {
-    "*.{js,jsx,ts,tsx}": [
-      "eslint --fix",
-      "prettier --write",
-      "git add"
-    ],
-    "*.{json,md}": [
-      "prettier --write",
-      "git add"
-    ]
-  },
   "dependencies": {
     "react": "17.0.2",
     "react-native": "0.68.7",
