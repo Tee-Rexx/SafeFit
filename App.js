@@ -9,7 +9,6 @@
 import React from 'react';
 import type {Node} from 'react';
 import {
-  Dimensions,
   SafeAreaView,
   ScrollView,
   StatusBar,
